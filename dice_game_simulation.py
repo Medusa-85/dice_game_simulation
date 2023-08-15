@@ -42,7 +42,7 @@ for value, count in zip(unique_values, counts):
     print(f'Valor {value}: {count}')
 
 # Plotagem de gráfico de barras dos resultados utilizando matplotlib:
-plt.bar(unique_values, counts )
+plt.bar(unique_values, counts)
 
 plt.xticks(range(2, 13), labels=range(2, 13))       # Rótulos dos ticks do eixo X
 
