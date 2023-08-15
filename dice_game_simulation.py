@@ -17,3 +17,10 @@ def dice_roll():
     return dice_1 + dice_2
 
 #print(dice_roll())
+
+# Parte 2: Multiplas simulações. Foi criado um loop com um número grande de repetições 
+# que executa a função 'dice_roll' e armazena seu resultado num array NumPy.
+
+total_moves = np.array([dice_roll() for i in range(100)])
+
+# print(f'total_moves: {total_moves}') #Descomente essa linha se quiser verificar a variável total_moves
