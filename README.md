@@ -4,7 +4,7 @@
 
 ## Objetivo
 
-Esse código simula o lançamento de dois dados de seis lados cada. 
+Desenvolvido em Python, esse código simula o lançamento de dois dados de seis lados cada. 
 O objetivo é analisar a justiça do jogo, trazer possíveis resultados e fazer previsões sobre jogos futuros, utilizando para isso uma base de dados estatísticos relacionados a esses eventos.
 
 ## Parte 1: Simulação de dados
